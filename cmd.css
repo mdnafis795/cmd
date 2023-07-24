@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+html {
+  height: 1000px;
+  width: 100%;
+}
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Top banner */
+.top-banner {
+  background-color: #3b2121;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Navigation */
+nav {
+  background-color: #d5b8b8;
+  padding: 10px;
+}
+
+.nav-links ul {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+}
+
+/* Title section */
+.title {
+  text-align: center;
+  padding: 20px;
+  
+}
+
+.text-area {
+  padding: 20px;
+}
+
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* File section */
+.file-section {
+  background-color: #e2c5c5;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Final section */
+.button-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.submit, .reset {
+  padding: 10px 20px;
+  background-color: #050000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  font-weight: bold;
+}
+#display_image{
+  display: flex;
+  width: 300px;
+  height:200px;
+  /* border: 1px solid red; */
+  margin-left: 39%;
+  background-repeat: no-repeat;
+  padding-bottom: 20px;
+  background-size: cover;
+}
+#video_player{
+  padding: 20px;
+  /* border: 1px solid black; */
+  width: 300px;
+  height: 200px;
+}
+
+/* Output display */
+.out_dis {
+  padding: 20px;
+  text-align: center;
+  
+}
